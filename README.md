@@ -90,6 +90,35 @@ System Setup – Clean Windows Installation
 - Boot process and BIOS/UEFI navigation
 - System configuration and driver management
 - Preparing a machine for virtualization workloads
+
+### Virtualization Setup – ISO Acquisition
+
+#### Actions Performed
+- Downloaded Ubuntu Desktop ISO for virtual machine installation
+
+#### What I Learned
+- ISO files are used as installation media for operating systems
+- Virtual machines require an ISO to boot and install an OS
+
+#### Why It Matters
+- Understanding ISO usage is essential for OS deployment in both virtual and physical environments
+
+### Virtualization – First Virtual Machine Creation
+
+#### Actions Performed
+- Installed Oracle VirtualBox on Windows host
+- Created a new virtual machine running Ubuntu Linux
+- Allocated system resources (RAM, CPU, storage)
+- Booted VM using ISO image and began OS installation
+
+#### What I Learned
+- How to create and configure a virtual machine
+- How system resources are shared between host and guest systems
+- The role of ISO images in deploying operating systems
+
+#### Why It Matters
+- Virtual machines are widely used in IT for testing, development, and system isolation
+- Provides hands-on experience with multi-system environments
 ---
 
 ## Purpose
