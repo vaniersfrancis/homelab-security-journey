@@ -49,10 +49,4 @@ The goal is to build real-world experience by installing, configuring, and worki
 - Disk partitioning (ext4)
 - User and system configuration
 
-## Command Log (Learning in Progress)
-```bash
-sudo apt update
-sudo apt upgrade -y
-pwd
-ls
-cd
+
