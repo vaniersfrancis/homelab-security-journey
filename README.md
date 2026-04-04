@@ -19,6 +19,19 @@ The goal is to build real-world experience by installing, configuring, and worki
 - Installed Ubuntu Linux using guided partitioning (ext4)
 - Configured user accounts and system settings
 
+## Featured Lab Projects
+
+### System Monitor Lab
+Hands-on Linux lab focused on monitoring and controlling system processes in a virtualized environment.
+
+**Skills demonstrated:**
+- Process monitoring with `htop`
+- Process inspection using `ps aux`
+- Process termination using `kill`
+- Understanding background vs foreground processes
+
+Location: `projects/system-monitor-lab/`
+
 ## Current Focus
 - Linux system navigation
 - Command-line usage
