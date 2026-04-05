@@ -25,6 +25,7 @@ Monitor and control system processes using Linux tools in a virtualized environm
 ### Outcome
 Successfully simulated and controlled system activity using Linux tools.
 
-## Screenshot
+## Visual Evidence
 
+### htop system monitoring
 ![htop system monitor](screenshots/htop.png)
