@@ -32,7 +32,7 @@ Hands-on Linux lab focused on monitoring and controlling system processes in a v
 
 Location: `projects/system-monitor-lab/`
 
-### 🔐 File Permissions Lab
+### File Permissions Lab
 Hands-on lab demonstrating Linux file access control and user-based security restrictions.
 
 **Skills demonstrated:**
@@ -41,13 +41,13 @@ Hands-on lab demonstrating Linux file access control and user-based security res
 - User creation and isolation (`adduser`, `su`)
 - Security validation through access denial testing
 
-📁 Location: `projects/file-permissions-lab/`
+Location: `projects/file-permissions-lab/`
 
 ## Current Focus
-- Linux system navigation
-- Command-line usage
-- File permissions and user management
-- Basic system administration
+- Practicing Linux system administration
+- Building hands-on cybersecurity labs
+- Learning process monitoring and access control
+- Studying for CompTIA Security+ (SY0-701)
 
 ## Technologies Used
 - VirtualBox
