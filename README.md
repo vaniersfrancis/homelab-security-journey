@@ -1,8 +1,9 @@
 # Cybersecurity Homelab
 
 ## Overview
-This repository documents my hands-on cybersecurity and system administration lab.  
-The goal is to build real-world experience by installing, configuring, and working with operating systems, virtualization, and security-focused environments.
+This repository documents my hands-on cybersecurity homelab where I build and practice real-world system administration and security skills.
+
+The goal is to gain practical experience with Linux, virtualization, and security concepts by creating and completing structured lab projects.
 
 ## Lab Environment
 - Host Machine: Windows 10
