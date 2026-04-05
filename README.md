@@ -50,11 +50,12 @@ Location: `projects/file-permissions-lab/`
 - Learning process monitoring and access control
 - Studying for CompTIA Security+ (SY0-701)
 
-## Technologies Used
+## 🧰 Technologies Used
+- Linux (Ubuntu) - System administration & lab environment
 - VirtualBox
-- Ubuntu Linux
-- Windows 10
+- Windows 10 (Host Machine)
 - Command Line Interface (CLI)
+- Git & GitHub
 
 ## Lab Progression
 
