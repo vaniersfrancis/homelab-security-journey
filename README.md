@@ -74,4 +74,4 @@ Location: `projects/file-permissions-lab/`
 - Disk partitioning (ext4)
 - User and system configuration
 
-
+This homelab is continuously expanding with new labs focused on system monitoring, access control, and security analysis.
