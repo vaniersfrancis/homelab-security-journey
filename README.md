@@ -32,6 +32,17 @@ Hands-on Linux lab focused on monitoring and controlling system processes in a v
 
 Location: `projects/system-monitor-lab/`
 
+### 🔐 File Permissions Lab
+Hands-on lab demonstrating Linux file access control and user-based security restrictions.
+
+**Skills demonstrated:**
+- File permission analysis (`ls -l`)
+- Access restriction using `chmod`
+- User creation and isolation (`adduser`, `su`)
+- Security validation through access denial testing
+
+📁 Location: `projects/file-permissions-lab/`
+
 ## Current Focus
 - Linux system navigation
 - Command-line usage
