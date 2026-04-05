@@ -1,4 +1,4 @@
-## System Monitor Lab## System Monitor Lab
+## System Monitor Lab
 
 ### Objective
 Monitor and control system processes using Linux tools in a virtualized environment.
@@ -24,3 +24,7 @@ Monitor and control system processes using Linux tools in a virtualized environm
 
 ### Outcome
 Successfully simulated and controlled system activity using Linux tools.
+
+## Screenshot
+
+![htop system monitor](screenshots/htop.png)
