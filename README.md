@@ -5,6 +5,16 @@ This repository documents my hands-on homelab journey as I build practical exper
 
 ---
 
+## Screenshots
+
+### System Monitoring
+![System Monitor](https://raw.githubusercontent.com/vaniersfrancis/homelab-security-journey/main/projects/system-monitor-lab/screenshots/htop.png)
+
+### Splunk Log Analysis
+![Splunk Dashboard](https://raw.githubusercontent.com/vaniersfrancis/homelab-security-journey/main/projects/splunk-log-analysis-lab/screenshots/Screenshot%20from%202026-04-13%2016-40-48.png)
+
+---
+
 ## Featured Lab Projects
 
 ### System Monitor Lab
