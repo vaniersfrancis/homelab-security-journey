@@ -1,78 +1,95 @@
-# Cybersecurity Homelab
+# Homelab Security Journey
 
 ## Overview
-This repository documents my hands-on cybersecurity homelab where I build and practice real-world system administration and security skills.
+This repository documents my hands-on homelab journey as I build practical experience in IT, Linux, system administration, and cybersecurity. The lab is focused on learning by doing through structured projects covering process monitoring, file permissions, authentication log analysis, incident investigation, and SIEM-based detection with Splunk.
 
-The goal is to gain practical experience with Linux, virtualization, and security concepts by creating and completing structured lab projects.
-
-## Lab Environment
-- Host Machine: Windows 10
-- Virtualization: VirtualBox
-- Guest OS: Ubuntu Linux
-
-## Lab Build (Completed)
-- Performed full system wipe and clean OS installation (Windows 10)
-- Installed and configured VirtualBox
-- Created and configured virtual machine:
-  - 8GB RAM
-  - 4 CPU cores
-  - 50GB storage
-- Installed Ubuntu Linux using guided partitioning (ext4)
-- Configured user accounts and system settings
+---
 
 ## Featured Lab Projects
 
 ### System Monitor Lab
-Hands-on Linux lab focused on monitoring and controlling system processes in a virtualized environment.
+Used Linux tools such as `htop`, `ps`, `grep`, `sleep`, and `kill` to observe active processes, identify running tasks, and manage background activity.
 
-**Skills demonstrated:**
-- Process monitoring with `htop`
-- Process inspection using `ps aux`
-- Process termination using `kill`
-- Understanding background vs foreground processes
+### File Permissions & Access Control Lab
+Used `chmod` and a separate test user to practice least privilege, file hardening, and unauthorized access prevention in Linux.
 
-Location: `projects/system-monitor-lab/`
+### Log Analysis Lab
+Reviewed `/var/log/auth.log` to identify session activity, `sudo` usage, and user-switch events, building a basic understanding of authentication monitoring and log-based investigation.
 
-### File Permissions Lab
-Hands-on lab demonstrating Linux file access control and user-based security restrictions.
+### Incident Investigation Lab
+Investigated simulated suspicious activity by reviewing Linux processes, user sessions, authentication logs, and system activity to collect evidence and document findings.
 
-**Skills demonstrated:**
-- File permission analysis (`ls -l`)
-- Access restriction using `chmod`
-- User creation and isolation (`adduser`, `su`)
-- Security validation through access denial testing
+### Splunk Log Analysis Lab
+Installed Splunk Enterprise on Ubuntu, configured live monitoring of authentication logs, and ingested `/var/log/auth.log` into a SIEM. Created alerts to detect attacker activity and brute force attempts, and built dashboards to visualize failed login trends and system activity.
 
-Location: `projects/file-permissions-lab/`
+---
+
+## Tools & Technologies
+- Ubuntu Linux
+- VirtualBox
+- Splunk Enterprise (SIEM, alerts, dashboards)
+- Git
+- GitHub
+- Linux Command Line
+- Authentication Logs (`/var/log/auth.log`)
+- Process Monitoring Tools (`htop`, `ps`, `grep`, `kill`)
+- Networking / Service Review (`ss`)
+
+---
+
+## Skills Gained
+- Linux system navigation and administration
+- Process monitoring and management
+- File permissions and access control
+- Authentication log analysis
+- Incident investigation and timeline reconstruction
+- SIEM usage with Splunk
+- Alert creation and detection logic
+- Dashboard visualization
+- Git and GitHub project documentation
+
+---
+
+## Challenges & Resolutions
+
+### Splunk Not Detecting New Logs
+**Issue:** After uploading `auth.log`, new terminal activity was not appearing in Splunk and alerts were not triggering.
+
+**Cause:** Logs were uploaded as a static file instead of being monitored in real time.
+
+**Resolution:** Configured Splunk to monitor `/var/log/auth.log` directly, enabling live log ingestion and real-time detection.
+
+---
+
+### Alerts Not Triggering
+**Issue:** Alerts were not triggering despite correct search queries.
+
+**Cause:** Time range did not include the timestamps of the ingested logs.
+
+**Resolution:** Adjusted alert time range and later resolved fully by enabling live log monitoring so alerts could trigger on new events.
+
+---
+
+### Failed Login Simulation Not Working
+**Issue:** Attempted to simulate failed logins using a non-existent user, which did not generate proper authentication failure logs.
+
+**Cause:** The system rejected the user before authentication occurred.
+
+**Resolution:** Used a valid user account with incorrect passwords to generate real failed login events for detection.
+
+---
+
+### Understanding SIEM Data Flow
+**Issue:** Initial confusion between terminal activity and what Splunk was actually ingesting.
+
+**Cause:** Misunderstanding the difference between system logs and user commands.
+
+**Resolution:** Learned that SIEM tools monitor log sources (e.g., `/var/log/auth.log`), not the terminal itself, and adjusted data ingestion approach accordingly.
+
+---
 
 ## Current Focus
-- Practicing Linux system administration
-- Building hands-on cybersecurity labs
-- Learning process monitoring and access control
-- Studying for CompTIA Security+ (SY0-701)
-
-## 🧰 Technologies Used
-- Linux (Ubuntu) - System administration & lab environment
-- VirtualBox
-- Windows 10 (Host Machine)
-- Command Line Interface (CLI)
-- Git & GitHub
-
-## Lab Progression
-
-### Phase 1: Environment Setup
-- Physical workspace setup
-- Host machine preparation
-- OS installation and updates
-
-### Phase 2: Virtualization
-- VirtualBox installation
-- Dependency troubleshooting
-- VM configuration and resource allocation
-
-### Phase 3: Linux Deployment
-- Ubuntu ISO setup
-- Virtual machine boot and installation
-- Disk partitioning (ext4)
-- User and system configuration
-
-This homelab is continuously expanding with new labs focused on system monitoring, access control, and security analysis.
+- Strengthening Linux and cybersecurity fundamentals
+- Building SIEM and detection skills with Splunk
+- Practicing blue-team style investigation workflows
+- Preparing for CompTIA Security+ (SY0-701)
