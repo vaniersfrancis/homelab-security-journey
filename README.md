@@ -17,6 +17,29 @@ This repository documents my hands-on homelab journey as I build practical exper
 
 ## Featured Lab Projects
 
+# Cybersecurity Homelab – Attack Detection & SIEM Monitoring
+
+This project demonstrates a hands-on cybersecurity lab focused on detecting and analyzing attack activity using a Cowrie SSH honeypot and Splunk SIEM.
+
+## Key Features
+- Deployed Cowrie SSH honeypot to capture brute-force login attempts
+- Ingested logs into Splunk SIEM for analysis
+- Built detection queries to extract attacker IPs, usernames, and passwords
+- Created a monitoring dashboard to visualize attack patterns
+- Implemented alerting to detect repeated authentication attempts
+
+## Technologies Used
+- Ubuntu Linux
+- Splunk SIEM
+- Cowrie Honeypot
+- VirtualBox
+
+## Skills Demonstrated
+- Log Analysis
+- Threat Detection
+- SIEM Monitoring
+- Linux Administration
+
 ### System Monitor Lab
 Used Linux tools such as `htop`, `ps`, `grep`, `sleep`, and `kill` to observe active processes, identify running tasks, and manage background activity.
 
